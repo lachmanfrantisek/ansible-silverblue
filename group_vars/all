@@ -23,6 +23,9 @@ base_package_remove: []
 
 # The 'flatpak' role #
 ######################
+
+flatpak_method: "user"
+
 flatpak_remote_install:
   - { name: 'flathub', url: 'https://dl.flathub.org/repo/flathub.flatpakrepo' }                 # Flathub
   - { name: 'fedora', url: 'oci+https://registry.fedoraproject.org' }                           # Fedora
